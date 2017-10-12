@@ -31,19 +31,19 @@ const ScrollableTabView = createReactClass({
   },
   scrollOnMountCalled: false,
 
-  propTypes: {
-    tabBarPosition: PropTypes.oneOf(['top', 'bottom', 'overlayTop', 'overlayBottom', ]),
-    initialPage: PropTypes.number,
-    page: PropTypes.number,
-    onChangeTab: PropTypes.func,
-    onScroll: PropTypes.func,
-    renderTabBar: PropTypes.any,
-    style: ViewPropTypes.style,
-    contentProps: PropTypes.object,
-    scrollWithoutAnimation: PropTypes.bool,
-    locked: PropTypes.bool,
-    prerenderingSiblingsNumber: PropTypes.number,
-  },
+  // propTypes: {
+  //   tabBarPosition: PropTypes.oneOf(['top', 'bottom', 'overlayTop', 'overlayBottom', ]),
+  //   initialPage: PropTypes.number,
+  //   page: PropTypes.number,
+  //   onChangeTab: PropTypes.func,
+  //   onScroll: PropTypes.func,
+  //   renderTabBar: PropTypes.any,
+  //   style: ViewPropTypes.style,
+  //   contentProps: PropTypes.object,
+  //   scrollWithoutAnimation: PropTypes.bool,
+  //   locked: PropTypes.bool,
+  //   prerenderingSiblingsNumber: PropTypes.number,
+  // },
 
   getDefaultProps() {
     return {

@@ -11,18 +11,18 @@ const {
 const Button = require('./Button');
 
 const DefaultTabBar = createReactClass({
-  propTypes: {
-    goToPage: PropTypes.func,
-    activeTab: PropTypes.number,
-    tabs: PropTypes.array,
-    backgroundColor: PropTypes.string,
-    activeTextColor: PropTypes.string,
-    inactiveTextColor: PropTypes.string,
-    textStyle: Text.propTypes.style,
-    tabStyle: ViewPropTypes.style,
-    renderTab: PropTypes.func,
-    underlineStyle: ViewPropTypes.style,
-  },
+  // propTypes: {
+  //   goToPage: PropTypes.func,
+  //   activeTab: PropTypes.number,
+  //   tabs: PropTypes.array,
+  //   backgroundColor: PropTypes.string,
+  //   activeTextColor: PropTypes.string,
+  //   inactiveTextColor: PropTypes.string,
+  //   textStyle: Text.propTypes.style,
+  //   tabStyle: ViewPropTypes.style,
+  //   renderTab: PropTypes.func,
+  //   underlineStyle: ViewPropTypes.style,
+  // },
 
   getDefaultProps() {
     return {
